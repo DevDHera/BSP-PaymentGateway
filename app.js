@@ -5,6 +5,8 @@ const exphbs = require('express-handlebars');
 const flash = require('connect-flash');
 const session = require('express-session');
 const passport = require('passport');
+const Nexmo = require('nexmo');
+const socketio = require('socket.io');
 
 const app = express();
 
@@ -26,7 +28,6 @@ mongoose.connect(keys.mongoURI, {
 })
     .then(() => console.log('MogoDB Connected'))
     .catch(err => console.log(err));
-
 
 //Handlebars Middleware
 app.engine('handlebars', exphbs({    
