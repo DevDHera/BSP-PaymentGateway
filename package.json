@@ -1,0 +1,15 @@
+{
+  "name": "bsp-cus",
+  "version": "1.0.0",
+  "description": "Banking System Prototype - Customer Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Devin Herath",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14"
+  }
+}
