@@ -15,7 +15,7 @@
     "express": "^4.21.0",
     "express-handlebars": "^3.0.0",
     "express-session": "^1.15.6",
-    "mongoose": "^5.13.20",
+    "mongoose": "^8.9.5",
     "nexmo": "^2.2.0",
     "passport": "^0.6.0",
     "passport-google-oauth20": "^1.0.0",
